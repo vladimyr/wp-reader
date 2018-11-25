@@ -1,0 +1,43 @@
+{
+  "name": "wp-reader",
+  "version": "0.0.0",
+  "description": "Read WordPress blogs from your terminal",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node ./cli.js http://informaticar.eu; exit 0"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vladimyr/wp-reader.git"
+  },
+  "author": {
+    "email": "d.vladimyr@gmail.com",
+    "name": "Dario Vladovic",
+    "url": "https://github.com/vladimyr"
+  },
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/vladimyr/wp-reader/issues"
+  },
+  "homepage": "https://github.com/vladimyr/wp-reader",
+  "dependencies": {
+    "html2plaintext": "^2.1.0",
+    "minimist": "^1.2.0",
+    "neo-blessed": "^0.2.0",
+    "os-locale": "^3.0.1",
+    "p-whilst": "^1.0.0",
+    "wp-api-client": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-semistandard": "^13.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
